@@ -64,7 +64,7 @@ To build from source, clone the latest version from this repository into your ca
 
 
 ### Unit Tests
-TODO: Write example tests.
+TODO: Write exampl tests.
 
 Run the unit tests with
 
@@ -149,7 +149,7 @@ Reads temperature measurements and computed the average.
 
 ## Bugs & Feature Requests
 
-Please report bugs and request features using the [Issue Tracker](https://github.com/ethz-asl/ros_best_practices/issues).
+Please report bugs and request features using the github issue tracker.
 
 
 [ROS2]: http://www.ros.org
