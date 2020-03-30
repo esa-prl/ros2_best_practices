@@ -49,6 +49,7 @@ To install all packages from the this repository as Debian packages use
 
 - [Robot Operating System (ROS)](http://wiki.ros.org) (middleware for robotics),
 - [Eigen] (linear algebra library)
+- ([rover_msgs]) (message definitions for ESA-PRL rovers)
 
 		sudo apt-get install libeigen3-dev
 
@@ -153,6 +154,7 @@ Please report bugs and request features using the github issue tracker.
 
 
 [ROS2]: http://www.ros.org
+[rover_msgs]: https://github.com/esa-prl/rover_msgs
 [rviz]: http://wiki.ros.org/rviz
 [Eigen]: http://eigen.tuxfamily.org
 [std_srvs/Trigger]: http://docs.ros.org/api/std_srvs/html/srv/Trigger.html
