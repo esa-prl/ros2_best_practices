@@ -8,7 +8,7 @@ This is a template: replace, remove, and add where required. Describe here what 
 
 ### License
 
-The source code is released under a [BSD 3-Clause license](ros_package_template/LICENSE).
+The source code is released under a [TODO: Add License]().
 
 **Author: Miro Voellmy<br />
 Affiliation: [European Space Agency](https://www.esa.int/)<br />
