@@ -108,7 +108,7 @@ Config file folder/set 2
 
 ### ros2_package_template
 
-Reads temperature measurements and computed the average.
+Reads temperature measurements and computes the average.
 
 
 #### Subscribed Topics
@@ -123,7 +123,7 @@ Reads temperature measurements and computed the average.
 ...
 
 
-#### Services
+#### Service Servers
 
 * **`get_average`** ([std_srvs/Trigger])
 
@@ -131,6 +131,10 @@ Reads temperature measurements and computed the average.
 
 		ros2 service call /ros_package_template/get_average
 
+#### Service Clients
+
+* **`stop_measurement`** ([std_srvs/Trigger])
+    Sends a request to stop the temperature measurement. The related service server must be implemented by another node.
 
 #### Parameters
 
