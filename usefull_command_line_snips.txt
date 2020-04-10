@@ -28,5 +28,8 @@ ros2 run joint_state_publisher joint_state_publisher --ros-args --remap /robot_d
 # Disable Locomotion Mode
 ros2 service call /marta/simple_rover_locomotion_node/disable std_srvs/Trigger
 
-# Disable Locomotion Mode
+# Enable Locomotion Mode
 ros2 service call /marta/simple_rover_locomotion_node/enable std_srvs/Trigger
+
+# Request Locmotion mode
+ros2 service call /marta/change_locomotion_mode rover_msgs/ChangeLocomotionMode "{new_locomotion_mode: 'simple_rover_locomotion_node'}"
