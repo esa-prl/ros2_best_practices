@@ -1,6 +1,8 @@
 
+import os
 import rclpy
 import unittest
+import pytest
 import launch_testing
 
 from launch_ros.actions import Node
@@ -63,7 +65,7 @@ class TestExample(unittest.TestCase):
     def test_subscriber(self, example_proc, proc_output, proc_info):
         '''
         This test verifies the subscriber of example_node to the test_msg topic.
-        The example node need to print out the data of the message, for the test to 
+        The example node need to print out the data of the message, for the test to
         be positive.
         '''
 
