@@ -33,3 +33,15 @@ ros2 service call /marta/simple_rover_locomotion_node/enable std_srvs/Trigger
 
 # Request Locmotion mode
 ros2 service call /marta/change_locomotion_mode rover_msgs/ChangeLocomotionMode "{new_locomotion_mode: 'simple_rover_locomotion_node'}"
+
+# Get Costmap
+ros2 service call /global_costmap/get_costmap nav2_msgs/GetCostmap
+
+# Navigate to Pose
+# Not Working
+ros2 action send_goal /NavigateToPose nav2_msgs/NavigateToPose "{pose: {header: {stamp: {sec: 1576574448, nanosec: 2}, frame_id: map}, pose: {position: {90, 180, 10}, quaternion: {0, 0, 0, 0} } } }"
+# Sending a default pose.
+ros2 action send_goal /NavigateToPose nav2_msgs/NavigateToPose "{pose: {} }"
+
+# Export Model Path for Nav2 Simulation
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/freki/rover_wss/ros2_ws/install/rover_config/share/rover_config/models
