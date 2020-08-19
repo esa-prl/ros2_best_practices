@@ -1,6 +1,6 @@
 ## ROS2 Best Practices, Conventions, and Tricks
 
-*Note: This package only contains the general folder structure and the README.md template for now, but no files yet.*
+*Note: This package contains the general folder structure and a README.md template, as well as a [wiki](https://github.com/esa-prl/ros2_best_practices/wiki)*
 
 Package containing best practices for ROS2 applied in the Planetary Robotics Laboratory. It is inspired by [this package from RSL](https://github.com/leggedrobotics/ros_best_practices).
 
