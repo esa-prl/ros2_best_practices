@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ros2_package_template</name>
+  <name>package_template</name>
   <version>0.0.0</version>
   <description>A package template for ROS2</description>
   <maintainer email="miro.voellmy@esa.int">Miro Voellmy</maintainer>
