@@ -154,7 +154,7 @@ Reads temperature measurements and computes the average.
 
 ## Bugs & Feature Requests
 
-Please report bugs and request features using the github issue tracker.
+Please report bugs and request features using the GitHub issue tracker.
 
 
 [ROS2]: http://www.ros.org
