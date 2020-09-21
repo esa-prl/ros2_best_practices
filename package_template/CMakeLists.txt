@@ -16,11 +16,9 @@ find_package(rclcpp REQUIRED)
 
 include_directories(include)
 
-set(dependencies
-  "rclcpp")
 
 add_executable(package_template_node src/package_template_node.cpp)
-ament_target_dependencies(package_template_node ${dependencies})
+ament_target_dependencies(package_template_node rclcpp)
 
 install(TARGETS
   package_template_node
