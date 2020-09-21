@@ -1,5 +1,5 @@
-#ifndef PACKAGE_TEMPLATE_HPP_
-#define PACKAGE_TEMPLATE_HPP_
+#ifndef PACKAGE_TEMPLATE_NODE_HPP_
+#define PACKAGE_TEMPLATE_NODE_HPP_
 
 #include "rclcpp/rclcpp.hpp"
 
