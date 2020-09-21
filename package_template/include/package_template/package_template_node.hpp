@@ -6,7 +6,7 @@
 class PackageTemplateNode : public rclcpp::Node
 {
 public:
-    PackageTemplateNode(rclcpp::NodeOptions options, std::string node_name);
+    PackageTemplateNode();
 
 private:
 };
